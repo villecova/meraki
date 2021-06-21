@@ -1,0 +1,220 @@
+body {
+	
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	/*background-color: #F0E9DF;*/
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2.5rem;
+	padding-top: 4.5rem;
+	line-height: 1.5;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 1.5rem;
+	padding-top: 1rem;
+}
+
+h1, h2 {
+	color: #665637;
+}
+
+button {
+	background-color: #CF8A00;
+	border-style: none;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 10px 40px 8px;
+	margin: 0;
+	border-radius: 25px;
+}
+
+.discount {
+	font-family: 'Cormorant', serif;
+	color: #4E738A;
+	font-size: 200px;
+	line-height: 180px;
+	height: 230px;
+}
+
+.caption {
+	padding-top: 1rem;
+	padding-bottom: 80px;
+	letter-spacing: 2px;
+}
+
+#top-section {
+
+}
+
+/*header {
+	margin: 0;
+}
+*/
+
+/*nav {
+	padding: 16px 0;
+}*/
+
+.navbar {
+	padding: 16px 35px;
+	background-color: white;
+}
+
+.kid-image {
+	visibility: hidden;
+	position: absolute;
+}
+
+
+/*  */
+
+.logo-mobile {
+	display: block;
+}
+
+.logo-desktop {
+	display: none;
+}
+
+/*.nav-link {
+	color: #85AF9A;
+}
+
+.nav-link:hover {
+	color: #4E738A;
+}*/
+
+.nav-item {
+	background-color: white;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.main-menu {
+	color: #85AF9A !important;
+}
+
+.main-menu:hover {
+	color: #4E738A !important;
+}
+
+.main-menu-special {
+	color: #4E738A !important;
+}
+
+.main-menu-special:hover {
+	color: #85AF9A !important;
+}
+
+/*  */
+
+.info-top-container {
+	background-color: #F0E9DF;
+	text-align: center;
+	padding: 0 12%;
+	margin-top: 101px;
+	/*padding-top: 50px;*/
+}
+
+.logo-top {
+	display: none;
+}
+
+.col-info {
+	padding: 0;
+}
+
+.col-img {
+	display: none;
+	padding: 0;
+}
+
+
+@media (min-width: 1024px) {
+
+	h1 {
+		text-align: start;
+		font-weight: bold;
+		font-size: 2.5rem;
+		padding-top: 3rem;
+		margin: 0;
+	}
+
+	h2 {
+		text-align: start;
+		font-weight: 300;
+		font-size: 2rem;
+		padding-top: .5rem;
+	}
+
+	button {
+	background-color: #CF8A00;
+	border-style: none;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 10px 40px 8px;
+	margin: 0;
+	border-radius: 25px;
+}
+
+
+	.logo-top {
+		display: block;
+		padding-top: 50px;
+	}
+
+	.kid-image {
+		visibility: visible;
+		position: static;
+		height: 50rem;
+	}
+
+	.discount {
+		color: #4E738A;
+		font-size: 250px;
+		line-height: 180px;
+		height: 250px;
+
+	}
+
+	.info-top-container {
+		margin-top: 75px;
+		padding: 4% 12% 0;
+	}
+
+	.logo-mobile {
+		display: none;
+	}
+
+	.logo-desktop {
+		display: block;
+	}
+
+	.nav-item {
+		background-color: white;
+		font-size: 16px;
+		padding-top: 0;
+		padding-left: 15px;
+		padding-bottom: 0;
+	}
+
+	.navbar {
+		padding: 16px 0;
+	}
+
+	.col-img {
+		display: block;
+	}
+
+
+	
+}
+
