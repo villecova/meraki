@@ -33,6 +33,21 @@ button {
 	border-radius: 25px;
 }
 
+/* TOP SECTION */
+
+/* Nav bar */
+
+.navbar {
+	padding: 16px 35px;
+	background-color: white;
+}
+
+/* Info Top Container */
+
+#top-section {
+
+}
+
 .discount {
 	font-family: 'Cormorant', serif;
 	color: #4E738A;
@@ -45,29 +60,12 @@ button {
 	padding-top: 1rem;
 	padding-bottom: 80px;
 	letter-spacing: 2px;
-}
-
-#top-section {
-
-}
-
-/*header {
-	margin: 0;
-}
-*/
-
-/*nav {
-	padding: 16px 0;
-}*/
-
-.navbar {
-	padding: 16px 35px;
-	background-color: white;
+	color: #4E738A;
 }
 
 .kid-image {
 	visibility: hidden;
-	position: absolute;
+	/*position: absolute;*/
 }
 
 
@@ -80,14 +78,6 @@ button {
 .logo-desktop {
 	display: none;
 }
-
-/*.nav-link {
-	color: #85AF9A;
-}
-
-.nav-link:hover {
-	color: #4E738A;
-}*/
 
 .nav-item {
 	background-color: white;
@@ -114,16 +104,106 @@ button {
 
 /*  */
 
-.info-top-container {
+.general-top-container {
 	background-color: #F0E9DF;
-	text-align: center;
-	padding: 0 12%;
+	/*text-align: center;*/
+	/*padding: 0 12%;*/
 	margin-top: 101px;
 	/*padding-top: 50px;*/
+
+	height: 680px;
+	position: relative;
+    z-index: -2;
+    overflow: hidden;
+
 }
 
-.logo-top {
-	display: none;
+/*.texture-back {
+	height: 870px;
+	width: 1500px;
+	position: absolute;
+   	z-index: -1;
+}*/
+
+.texture {
+	/*border: 3px solid red;*/
+}
+	/* circulo naranja */
+	.texture-1 {
+		position: absolute;
+		height: 120px;
+		top: -40px;
+		right: -100px;
+	}
+	/* hoja azul */
+	.texture-2 {
+		position: absolute;
+		height: 150px;
+		bottom: -20px;
+		left: -20px;
+	}
+	/* Gusanos */
+	.texture-3 {
+		position: absolute;
+		width: 150px;
+		bottom: -10px;
+		left: 35%;
+	}
+	/* Hoja 1 */
+	.texture-4 {
+		position: absolute;
+		height: 150px;
+		bottom: -40px;
+		right: -40px;
+	}
+	/* Hoja 2 */
+	.texture-5 {
+		position: absolute;
+		height: 150px;
+		bottom: 20%;
+		right: -50px;
+	}
+	/* Circulo rosa */
+	.texture-6 {
+		position: absolute;
+		height: 120px;
+		top: -50px;
+		left: -90px;
+	}
+	/* corazon */
+	.texture-7 {
+		position: absolute;
+		height: 40px;
+		top: 22%;
+		left: 5%;
+	}
+	/* gusano */
+	.texture-8 {
+		position: absolute;
+		height: 150px;
+		top: 20%;
+		right: -15px;
+	}
+	/* cielo */
+	.texture-9 {
+		position: absolute;
+		width: 200px;
+		top: -20px;
+		right: 20%;
+	}
+
+	/* Concha */
+	.texture-10 {
+		position: absolute;
+		height: 100px;
+		bottom: 25%;
+		left: -10px;
+	}
+
+.row-container {
+	padding: 0;
+	position: relative;
+   	z-index: 1;
 }
 
 .col-info {
@@ -135,6 +215,180 @@ button {
 	padding: 0;
 }
 
+.logo-top {
+	display: none;
+}
+
+/* SLOGAN SECTION */
+
+#slogan-section {
+	background-color: white;
+	padding: 4% 15% 2%;
+}
+
+.slogan-1 {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.slogan-2 {
+	width: 85%;
+	padding-left: 0;
+	padding-bottom: 30px;
+}
+
+/* MODEL SECTION */
+
+#model-section {
+	background-color: #EFB8A9;
+	padding: 4% 15% 4%;
+}
+
+.img-model {
+	height: 300px;
+}
+
+.subtitle-model {
+	text-align: center;
+	padding-top: 30px;
+	color: white;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+.frame-title {
+ 	padding-bottom: 20px;
+}
+
+.modelo-lista {
+	/*display: block;*/
+	padding-top: 40px;
+}
+
+.modelo-lista p {
+	color: #665637;
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.hands {
+	padding: 10px 0;
+}
+
+.button-model {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	background-color: #F0E9DF;
+	color: #FF8189;
+	
+
+}
+
+/* VALUES SECTION */
+
+#values-section {
+	background-color: #C5D4D5;
+
+}
+
+.subtitle {
+	padding: 40px 20px 0;
+	text-align: center;
+	padding-bottom: 10px;
+	letter-spacing: 3px;
+}
+
+.values {
+	padding-bottom: 3%;
+}
+
+.value-img {
+	height: 200px;
+	/*padding-top: 0;*/
+}
+
+.value {
+	font-weight: bold;
+	font-size: 18px;
+	color: #665637;
+	padding-bottom: 15px;
+}
+
+/* CONTACT SECCION */
+
+#contact-section {
+
+}
+
+.logo-contact {
+	height: 100px;
+	padding: 10px 0 25px;
+	opacity: 60%;
+}
+
+.contact-1 {
+	text-align: center;
+}
+
+.contact h4 {
+	font-size: 18px;
+	padding-bottom: 20px;
+	color: #4E738A;
+}
+
+.form-container {
+	padding: 0 15% 7%;
+	background-color: #98ADBA	;
+}
+
+.subtitle-contact {
+	color: white;
+	padding-top: 30px;
+}
+
+h4 {
+	
+	color: #F0E9DF;
+	padding: 5px 0 15px;
+}
+
+.form-group {
+	width: 100%;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 5px 15px;
+	font-size: 15px;
+	width: 100%;
+	border-style: none;
+	border-radius: 5px;
+	background-color: #8CA2AF;
+	color: white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 50%; /* Firefox */
+}
+
+.button-contact {
+	margin: 20px 0 20px;
+	background-color: #F0E9DF;
+	color: #4E738A;
+}
+
+/* FOOTER SECTION */
+
+.footer-container {
+	padding: 7% 15% 5%;
+}
+
+
+/* ----------------------------------------------------------------------------------- */
 
 @media (min-width: 1024px) {
 
@@ -142,7 +396,7 @@ button {
 		text-align: start;
 		font-weight: bold;
 		font-size: 2.5rem;
-		padding-top: 3rem;
+		padding-top: 2rem;
 		margin: 0;
 	}
 
@@ -154,21 +408,20 @@ button {
 	}
 
 	button {
-	background-color: #CF8A00;
-	border-style: none;
-	color: white;
-	font-size: 22px;
-	font-weight: bold;
-	letter-spacing: 2px;
-	padding: 10px 40px 8px;
-	margin: 0;
-	border-radius: 25px;
-}
+		border-style: none;
+		color: white;
+		font-size: 22px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		padding: 10px 40px 8px;
+		margin: 0;
+		border-radius: 25px;
+	}
 
 
 	.logo-top {
 		display: block;
-		padding-top: 50px;
+		padding-top: 35px;
 	}
 
 	.kid-image {
@@ -179,15 +432,114 @@ button {
 
 	.discount {
 		color: #4E738A;
-		font-size: 250px;
-		line-height: 180px;
-		height: 250px;
+		font-size: 220px;
+		line-height: 160px;
+		height: 230px;
 
 	}
 
-	.info-top-container {
+	.general-top-container {
 		margin-top: 75px;
 		padding: 4% 12% 0;
+
+		height: 870px;
+		position: relative;
+    	z-index: -2;
+   		overflow: hidden;
+	}
+
+	.texture-back {
+		height: 870px;
+		width: 1500px;
+		position: absolute;
+	   	z-index: -1;
+	}
+		/* circulo naranja */
+		.texture-1 {
+			position: absolute;
+			height: auto;
+			top: -150px;
+			right: -200px;
+		}
+		/* hoja azul */
+		.texture-2 {
+			position: absolute;
+			height: auto;
+			bottom: -50px;
+			left: -20px;
+		}
+		/* Gusanos */
+		.texture-3 {
+			position: absolute;
+			width: auto;
+			bottom: -20px;
+			left: 42%;
+		}
+		/* Hoja 1 */
+		.texture-4 {
+			position: absolute;
+			height: auto;
+			bottom: -60px;
+			right: -80px;
+		}
+		/* Hoja 2 */
+		.texture-5 {
+			position: absolute;
+			height: auto;
+			bottom: 30%;
+			right: -120px;
+		}
+		/* Circulo rosa */
+		.texture-6 {
+			position: absolute;
+			height: auto;
+			top: -60px;
+			left: -110px;
+		}
+		/* corazon */
+		.texture-7 {
+			position: absolute;
+			height: auto;
+			top: 25%;
+			left: 8%;
+		}
+		/* gusano */
+		.texture-8 {
+			position: absolute;
+			height: auto;
+			bottom: 40%;
+			right: 10%;
+		}
+		/* cielo */
+		.texture-9 {
+			position: absolute;
+			width: auto;
+			top: -80px;
+			right: 25%;
+		}
+
+		/* Concha */
+		.texture-10 {
+			position: absolute;
+			height: auto;
+			bottom: 5%;
+			left: 15%;
+		}
+
+	.row-container {
+		padding: 0 150px; 
+		position: absolute;
+	   	z-index: 1;
+	}
+
+	.col-info {
+		padding: 0;
+	}
+
+	.col-img {
+		display: none;
+		padding: 0;
+		display: block;
 	}
 
 	.logo-mobile {
@@ -210,10 +562,115 @@ button {
 		padding: 16px 0;
 	}
 
-	.col-img {
-		display: block;
+	/* SLOGAN SECTION */
+
+	#slogan-section {
+		background-color: white;
+		padding: 4% 15% 2%;
 	}
 
+	.slogan-1 {
+		width: 50%;
+		padding-top: 5px;
+		padding-bottom: 30px;
+	}
+
+	.slogan-2 {
+		width: 46%;
+		padding-left: 12px;
+		padding-bottom: 30px;
+	}
+
+	/* MODEL SECTION */
+
+	#model-section {
+		padding: 4% 14%;
+	}
+
+	.img-model {
+		height: 500px;
+	}
+
+	.subtitle-model {
+		text-align: center;
+		padding-top: 0;
+	}
+
+	.frame-title {
+	 	padding-bottom: 20px;
+	}
+
+	.modelo-lista {
+		display: inline-block;
+		text-align: left;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.modelo-lista p {
+		display: inline;
+		font-size: 16px;
+	}
+
+	.hands {
+		padding-right: 25px;
+	}
+
+	.button-model {
+		margin-top: 40px;
+		background-color: #F0E9DF;
+		color: #FF8189;
+		
+
+	}
+
+	/* VALUES SECTION */
+
+	#values-section {
+		background-color: #C5D4D5;
+	}
+
+	.values {
+		text-align: center;
+		padding: 0 15% 2%;
+	}
+
+	.value-img {
+		height: 150px;
+		padding-top: 0;
+	}
+
+	.value {
+		padding-top: 0;
+		
+	}
+
+	.subtitle {
+		text-align: center;
+		padding-bottom: 30px;
+		letter-spacing: 3px;
+	}
+
+	.value p {
+		font-weight: bold;
+		font-size: 18px;
+		color: #665637;
+	}
+
+	/* CONTACT SECCION */
+
+	.form-container {
+		padding: 7% 15% 5%;
+		background-color: #98ADBA	;
+	}
+
+	.logo-contact {
+		height: 150px;
+	}
+
+	.contact-1 {
+		display: inline;
+	}
 
 	
 }
