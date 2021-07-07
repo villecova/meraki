@@ -498,10 +498,10 @@
 
 } 
 
-/* ----------------------------------------------------------------------------------- */
+/* --------- Default -------------------------------------------------------------- */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 370px) {
+/*@media only screen and (min-width: 370px) {*/
 
 	body {
 		
@@ -538,7 +538,16 @@
 		border-radius: 25px;
 	}
 
-	/* TOP SECTION */
+	button:hover {
+		font-size: 24px;
+	}
+
+/*		.button-cta {
+		
+		z-index: 1:
+	}*/
+
+	/* TOP SECTION ------------------------------------ */
 
 	/* Nav bar */
 
@@ -619,7 +628,7 @@
 
 		height: 680px;
 		position: relative;
-	    z-index: -2;
+	    /*z-index: -2;*/
 	    overflow: hidden;
 
 	}
@@ -709,7 +718,7 @@
 	.row-container {
 		padding: 0;
 		position: relative;
-	   	z-index: 1;
+	   	/*z-index: 4;*/
 	}
 
 	.col-info {
@@ -725,7 +734,7 @@
 		display: none;
 	}
 
-	/* SLOGAN SECTION */
+	/* SLOGAN SECTION ------------------------------- */
 
 	#slogan-section {
 		background-color: white;
@@ -960,6 +969,7 @@
 	}
 
 	input, textarea {
+		margin-bottom: 10px;
 		width: 100%;
 		padding: 5px 15px;
 		font-size: 15px;
@@ -996,7 +1006,31 @@
 		font-size: 12px;
 	}
 
-} 
+	.contact-2 {
+		z-index: 5;
+	}
+
+	/* Floatin button ---------------------- */
+
+.float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#4dc247;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 1px 1px 5px #808080;
+	z-index: 6;
+}
+
+.fa-whatsapp {
+	padding-top: 23%;
+}
+
+ 
 
 /* ----------------------------------------------------------------------------------- */
 
@@ -1036,7 +1070,6 @@
 		border-radius: 25px;
 	}
 
-
 	.logo-top {
 		display: block;
 		padding-top: 35px;
@@ -1050,9 +1083,9 @@
 
 	.discount {
 		color: #4E738A;
-		font-size: 220px;
-		line-height: 160px;
-		height: 230px;
+		font-size: 180px;
+		line-height: 140px;
+		height: 190px;
 
 	}
 
@@ -1062,7 +1095,7 @@
 
 		height: 870px;
 		position: relative;
-    	z-index: -2;
+    	/*z-index: -2;*/
    		overflow: hidden;
 	}
 
@@ -1074,10 +1107,12 @@
 	}
 		/* circulo naranja */
 		.texture-1 {
+			/*border: 3px solid red;*/
 			position: absolute;
 			height: auto;
 			top: -150px;
 			right: -200px;
+			/*z-index: -1;*/
 		}
 		/* hoja azul */
 		.texture-2 {
@@ -1146,12 +1181,14 @@
 
 	.row-container {
 		padding: 0 150px; 
-		position: absolute;
-	   	z-index: 1;
+		/*position: absolute;
+	   	z-index: 15;*/
 	}
 
 	.col-info {
 		padding: 0;
+		position: relative;
+		z-index: 15;
 	}
 
 	.col-img {
@@ -1283,6 +1320,11 @@
 	}
 
 	/* CONTACT SECCION */
+
+	input, textarea  {
+		margin-bottom: 15px;
+		padding: 7px 15px;
+	}
 
 	.contact-container {
 		width: 100%;
