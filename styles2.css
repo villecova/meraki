@@ -1,0 +1,162 @@
+
+
+
+/* STYLES 2 (PAGES) */
+
+.logo-desktop-page {
+	display: none;
+	height: 33px;
+}
+
+.page-container {
+	text-align: center;
+	margin-top: 100px;	
+}
+
+.title-page-image, .title-page, .subtitle-page {
+	display: inline-block;
+}
+
+.title-page {
+	color: white;
+	padding-top: 0;
+}
+
+.subtitle-page {
+	color: white;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 0;
+	margin: 0;
+}
+
+.title-page-image {
+	margin-top: 30px;
+	height: 70px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+}
+
+.under-title{
+	height: 35px;
+}
+
+.first-p {
+	color: #41697E;
+	font-size: 22;
+	font-weight: 700;
+	margin: 0;
+	padding: 60px 0 20px;
+
+}
+
+.modelo-img {
+	padding: 20px 20px;
+}
+
+.general-p {
+	text-align: center;
+	padding: 15px 0 10px;
+	/*color: #000000; opacity: 54%;*/
+	color: #5A6871;
+	margin: 0;
+}
+
+.model-container-page-1 {
+	background-color: #C5D4D5;
+	padding: 4% 12% 2%;
+
+}
+
+.model-container-page-2 {
+	text-align: center ;
+	background-color: #C5D4D5;
+	padding: 2% 12% 20%;
+}
+
+.img-model-2 {
+	text-align: center;
+	padding-top: 50px;
+}
+
+/* MENSAJE DE LA DIRECTORA ------------------*/
+
+.mensaje-page-container {
+	margin-top: 94px;
+	padding-top: 50px;
+}
+
+.gracias-page-container {
+	margin-top: 94px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.gracias-page-container h1 {
+	padding: 60px 30px 0;
+}
+
+.gracias-page-container h2 {
+	text-align: center;
+	font-size: 18px;
+	padding: 0 30px 30px;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) ----------------------------------- */
+@media only screen and (min-width: 992px) {
+
+.logo-desktop-page {
+	display: block;
+}
+
+.page-container {
+	margin-top: 72px;	
+}
+
+.title-page-image {
+	margin-top: 0;
+}
+
+.general-p {
+	text-align: left;
+	padding: 50px 0 20px 20px;
+}
+
+.subtitle-page {
+	margin-top: 30px;
+}
+
+
+.model-container-page-1 {
+	padding: 4% 20% 2%;
+
+}
+
+.model-container-page-2 {
+	padding: 2% 20% 4%;
+}
+
+/* MENSAJE DE LA DIRECTORA */
+
+.mensaje-page-container {
+	margin-top: 72px;
+	padding-top: 50px;
+}
+
+
+.gracias-page-container {
+	margin-top: 72px;
+	padding-top: 50px;
+}
+
+
+
+}
+
+
+
+
+
+
+
